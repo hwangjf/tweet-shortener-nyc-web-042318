@@ -23,7 +23,7 @@ def word_substituter(string)
     contain = []
     contain.push(word)
     if (contain&long_words).length > 0
-      split_array.delete!(word)
+      split_array.delete(word)
     else 
       word
     end
