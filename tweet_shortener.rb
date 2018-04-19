@@ -23,8 +23,8 @@ def word_substituter(string)
     contain = []
     contain.push(word)
     if (contain&long_words).length > 0
-      dictionary[word]
       contain = []
+      dictionary[word]
     else 
       word
     end
