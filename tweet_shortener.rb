@@ -23,7 +23,7 @@ def word_substituter(string)
     contain = []
     contain.push(word.downcase)
     if (contain&long_words).length > 0
-      dictionary[word]
+      puts dictionary[word]
     else 
       word
     end
