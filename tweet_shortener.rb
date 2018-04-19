@@ -28,5 +28,5 @@ def word_substituter(string)
       word
     end
   }
-  return split_array
+  return split_array.join" ".to_s
 end
