@@ -19,5 +19,14 @@ end
 def word_substituter(string)
   split_array = string.split
   long_words = dictionary.keys
+  split_array.map! { |word|
+    contain = []
+    contain.push(word)
+    if (contain&long_words).length > 0
+      word + "!"
+    else 
+      word
+    end
+  }
   return split_array
 end
