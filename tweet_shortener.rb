@@ -24,7 +24,7 @@ def word_substituter(string)
     contain.push(word.downcase)
     if (contain&long_words).length > 0
       contain.clear
-      dictionary[word]
+      dictionary[word.downcase]
     else 
       word
     end
