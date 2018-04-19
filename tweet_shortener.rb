@@ -19,5 +19,5 @@ end
 def word_substituter(string)
   split_array = string.split
   long_words = dictionary.keys
-  return long_words
+  return split_array
 end
