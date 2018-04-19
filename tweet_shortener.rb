@@ -18,6 +18,6 @@ end
 
 def word_substituter(string)
   split_array = string.split
-  long_words = dictionary.keys.to_s.split.flatten
-  long_words[0]
+  long_words = dictionary.keys
+  return long_words
 end
