@@ -32,5 +32,7 @@ def word_substituter(string)
 end
 
 def bulk_tweet_shortener(array_of_tweets)
-  puts word_substituter(array_of_tweets)
+  for tweet in array_of_tweets
+    puts word_substituter(i)
+  end
 end
