@@ -21,9 +21,8 @@ def word_substituter(string)
   long_words = dictionary.keys
   split_array.map! { |word|
     contain = []
-    contain.push(word.downcase)
+    contain.push(word)
     if (contain&long_words).length > 0
-      contain.clear
       dictionary[word.downcase]
     else 
       word
