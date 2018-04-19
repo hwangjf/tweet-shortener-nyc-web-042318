@@ -23,7 +23,7 @@ def word_substituter(string)
     contain = []
     contain.push(word)
     if (contain&long_words).length > 0
-      word + "!"
+      split_array[word] = dictionary[word]
     else 
       word
     end
