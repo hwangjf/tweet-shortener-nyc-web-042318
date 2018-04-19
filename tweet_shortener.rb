@@ -20,8 +20,10 @@ def word_substituter(string)
   split_array = string.split
   long_words = dictionary.keys
   split_array.map! { |word|
-    if long_words.include?(word)
-      dictionary[word]
+    contain = []
+    contain.push(word.downcase)
+    if (contain&long_words).length == contain.length
+       dictionary[word]
     else 
       word
     end
