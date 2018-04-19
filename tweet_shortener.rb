@@ -30,3 +30,7 @@ def word_substituter(string)
   }
   return split_array.join" ".to_s
 end
+
+def bulk_tweet_shortener(array_of_tweets)
+  puts word_substituter(array_of_tweets)
+end
